@@ -4,7 +4,7 @@ all: fork.o
 run: all
 	./a.out
 	make clean
-
+ 
 file.o: fork.c
 	gcc -c fork.c
 
